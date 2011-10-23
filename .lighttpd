@@ -1,0 +1,7 @@
+server.error-handler-404 = "/404.html"
+url.rewrite-once += ( "\.tpl" => "/403.html" )
+
+url.rewrite-once += ( "^/(index)/(.+)$" => "/$1.php?filename=$2" )
+url.rewrite-once += ( "^/(info)/(.+)$" => "/$1.php?filename=$2" )
+url.rewrite-once += ( "^/(remove)/(.+)$" => "/$1.php?filename=$2" )
+url.rewrite-once += ( "^/(view)/(.+)$" => "/$1.php?filename=$2" )

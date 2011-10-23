@@ -1,0 +1,13 @@
+DirectoryIndex index.php index.html
+
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule ^(.*)\.tpl$ /403.html [QSA,L]
+
+RewriteCond %{REQUEST_URI} ^.*/(js|css|thumbs|pub)/.+
+RewriteRule .* - [L]
+
+RewriteCond /%{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/(.+)$ /$1.php?filename=$2 [QSA,L]

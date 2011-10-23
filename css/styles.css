@@ -1,0 +1,94 @@
+body
+{
+	font-family: Arial;
+	font-size: 12pt;
+	padding: 0px;
+	margin: 0px;
+}
+
+table
+{
+	font-size: 12pt;
+}
+
+th
+{
+	text-align: left;
+	padding-right: 8px;
+}
+
+a
+{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #00F;
+}
+
+a:hover
+{
+	color: green;
+}
+
+a img
+{
+	border: none;
+}
+
+.req
+{
+	color: red;
+	font-weight: bold;
+}
+
+.lbl
+{
+	font-size: 8pt;
+	vertical-align: 2px;
+}
+
+.inp
+{
+	height: 22px;
+}
+
+.title
+{
+	font-family: Impact;
+	font-size: 32pt;
+	color: #582;
+	text-align: center;
+}
+
+.btn
+{
+	padding: 4px 8px 4px 8px;
+	padding: '4px 0px 4px 0px';
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.error
+{
+	color: red;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.info
+{
+	color: green;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.infotext
+{
+	font-weight: bold;
+	font-size: 8pt;
+	padding-bottom: 8px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
